@@ -1,0 +1,91 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+
+\newcommand{\piot}{\frac{\pi}{2}}
+\newcommand{\pitt}{\frac{3\pi}{2}}
+
+%: ==== HB Header Common Math v20170530 ====V
+	% ams
+	\usepackage{amsmath, amssymb,amsfonts,amsthm}
+	
+	\newcommand{\hbVec}[1]{\mathbf{#1}}	% vector
+	\newcommand{\hbAbs}[1]{| #1 |}	% absolute value
+	\newcommand{\hbNorm}[1]{\left\lVert #1 \right\rVert}	% norm 2
+	\newcommand{\hbMat}[1]{\mathbf{#1}}	% matrix
+	\newcommand{\hbSet}[1]{\mathcal{#1}}	%
+	\newcommand{\argmin}[2]{\underset{#1}{\operatorname{arg \, min}}\;#2}
+	\newcommand{\argmax}[2]{\underset{#1}{\operatorname{arg \, max}}\;#2}
+
+	
+	\theoremstyle{plain}% default
+	\newtheorem{thm}{Theorem}[section]
+	\newtheorem{lem}[thm]{Lemma}
+	\newtheorem{prop}[thm]{Proposition}
+	\newtheorem*{cor}{Corollary}
+	\theoremstyle{definition}
+	\newtheorem{defn}{Definition}[section]
+	\newtheorem{conj}{Conjecture}[section]
+	\newtheorem{exmp}{Example}[section]
+	\theoremstyle{remark}
+	\newtheorem*{rem}{Remark}
+	\newtheorem*{note}{Note}
+% ==== HB Header Common Math v20170530 ====A
+
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Cheatsheet for\\ k-12 Math}
+\author{Haluk O. Bingol}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{}
+%\subsection{}
+\noindent
+
+\section{Trigonometry}
+
+\subsection{Period}
+$\sin a = \sin (a + 2 k \pi)$\\
+$\cos a = \cos (a + 2 k \pi)$\\
+$\tan a = \tan (a + k \pi)$\\
+$\cot a = \cot (a + k \pi)$\\
+
+\subsection{$a \pm b$}
+$\sin (a \pm b) = \sin a \cos b \pm\cos a  \sin a$\\
+$\cos(a \pm b) = \cos a \cos b \mp \sin a \sin b$\\
+$\sin 2 a = 2 \sin a \cos a$\\
+$\cos 2 a 
+= \cos^{2} a - \sin^{2} a 
+= 1 - 2 \sin^{2} a
+= 2 \cos^{2} a - 1$\\
+$\tan (a \pm b) = \frac{\tan a + \tan b}{1 \mp \tan a \tan b}$\\
+
+
+
+\subsection{odd, even}
+$\sin (-a) = - \sin a$\\
+$\cos (-a) = \cos a$\\
+$\tan (-a) = - \tan a$\\
+
+\subsection{genel}
+$\sin^{2} a + \cos^{2} a = 1$\\
+$\tan a \cot a = 1$\\
+
+$aaa$\\
+$aaa$\\
+$aaa$\\
+$aaa$\\
+
+\end{document}  
